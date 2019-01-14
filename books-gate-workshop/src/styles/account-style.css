@@ -1,0 +1,86 @@
+section.account-section {
+    position: relative;
+    background-color: snow;
+    padding: 1%;
+    font-family: "Helvetica", sans-serif;
+    height: auto;
+}
+
+article {
+    display: inline-block;
+}
+
+article.account-details {
+    width: 30%;
+    /*height: 100%;*/
+    height: auto;
+    background-color: #555C6F;
+    color: #B2B6C0;
+}
+
+article.account-details h3 {
+    color: #EF0F72;
+    text-shadow: white;
+    margin: 5%;
+}
+
+article.account-details ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+article.account-details ul li {
+    margin: 1% 5%;
+}
+
+article.account-details p.account-icons {
+    display: block;
+    margin: 5%;
+    margin-left: 3%;
+}
+
+article.account-details p.account-icons a {
+    display: inline-block;
+    padding: 2%;
+    font-size: larger;
+}
+
+article.account-details span {
+    margin: 5%;
+}
+
+article.account-review {
+    display: inline-block;
+    position: absolute;
+    width: 70%;
+    height: auto;
+    /*background-color: #01BDBE;*/
+    /*color: white;*/
+    padding: 2%;
+}
+
+article.account-review article {
+    margin-right: 5%;
+    display: inline-block;
+}
+
+article.account-review article > h2 {
+    text-align: left;
+}
+
+article.account-review article > p {
+    text-align: left;
+    width: 69%;
+}
+
+article.account-review article img {
+    position: absolute;
+    top: 6%;
+    right: 3%;
+
+    width: 180px;
+    height: 220px;
+    border-width: 7px;
+    border-color: white;
+    border-style: solid;
+}

@@ -1,0 +1,18 @@
+.jumbotron {
+    /*background: url(https://i1.wp.com/www.uscgcorp.com/wp-content/uploads/2015/10/Contact-Us-Background.jpg);*/
+    background: url(https://vastvue.ca/wp-content/uploads/2016/05/contact_hd.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFF;
+    border-radius: 0px;
+}
+.jumbotron-sm {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.jumbotron small {
+    color: #FFF;
+}
+.h1 small {
+    font-size: 24px;
+}

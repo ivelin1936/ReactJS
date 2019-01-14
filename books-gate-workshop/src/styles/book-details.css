@@ -1,0 +1,225 @@
+.mainDiv {
+    font-size: 23px;
+    margin: 5% auto;
+    width: 97%;
+    max-width: 1150px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 3.5%;
+    background-color: #fff;
+}
+
+.book-details {
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 3%;
+    position: relative;
+    height: 580px;
+}
+
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+.book-img {
+    width: 300px;
+    height: 450px;
+}
+
+.book-details article {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 4%;
+}
+
+.book-details article h2 {
+    letter-spacing: 1px;
+    font-size: 2em;
+    color: #ee0900;
+    text-shadow: 2px 3px 5px grey;
+}
+
+.book-details article > h6 {
+    font-weight: normal;
+    padding-bottom: 10px;
+    font-style: italic;
+    font-size: 0.8em;
+    color: #ee0900;
+}
+
+.book-details article > p a {
+    color: lightcoral;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.book-details article span > i {
+    font-size: 1em;
+    color: darkslateblue;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.book-details article span + span {
+    font-style: italic;
+    font-size: 0.7em;
+}
+
+.book-details article > p {
+    padding: 5px 0;
+    font-size: 0.8em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.book-details .praise {
+    font-size: 0.85em;
+    text-align: justify;
+}
+
+.book-details .praise .quote {
+    margin-top: 1%;
+    color: #494949;
+}
+
+.book-details .praise .source {
+    padding: 5px 0;
+    color: lightslategray;
+    font-style: italic;
+}
+
+/** Buy box styles */
+.buy-box {
+    width: 380px;
+    display: inline-block;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    position: absolute;
+    left: calc(67% - 190px);
+    bottom: 60px;
+    box-shadow: 1px 1px 5px lightslategrey;
+}
+
+.buy-box h4 {
+    background-color: #ee0979;
+    line-height: 1.6em;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.8em;
+    font-weight: normal;
+}
+
+.buy-box form {
+    padding: 1.5em 0.7em;
+    text-align: center;
+}
+
+.buy-box form input {
+    box-sizing: border-box;
+    padding: 8px;
+    height: 2.3em;
+    width: 2.8em;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1em;
+}
+
+.buy-box form button {
+    margin: 0 0.7em;
+    background-color: #ee0979;
+    border: none;
+    border-radius: 35px;
+    width: 60%;
+    color: #fff;
+    text-align: center;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    line-height: 3em;
+    outline: none;
+}
+
+.buy-box form button:hover {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+.buy-box form button i {
+    font-size: 1.6em;
+}
+
+.author, .about-the-book {
+    font-size: 0.7em;
+    text-align: justify;
+}
+
+.details {
+    width: 40%;
+    float: left;
+}
+
+.details table {
+    color: #757575;
+    font-size: 1.3em;
+    border-spacing: 0;
+    margin-top: 0.9em;
+    border-top: 1px solid gainsboro;
+    outline: none;
+    align-content: flex-start;
+}
+
+.summary {
+    width: 55%;
+    margin-left: 4.5%;
+    display: inline-block;
+}
+
+.author h3, .about-the-book h3 {
+    padding: 0.9em 0 0.6em 0;
+    font-size: 2.2em;
+    font-weight: 500;
+    color: #ee0979;
+    text-shadow: 2px 3px 5px grey;
+}
+
+.author figure {
+    width: 280px;
+    float: right;
+    padding: 1% 0 1% 2.5%;
+}
+
+.author p, .about-the-book p {
+    margin: 0.7em 0;
+    color: #757575;
+    line-height: 1.5em;
+}
+
+.administration a {
+    margin: 5px;
+}
+
+.inStock {
+    color: green;
+}
+
+.outStock {
+    color: red;
+}
+
+
+
